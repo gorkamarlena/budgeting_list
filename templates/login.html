@@ -5,6 +5,10 @@
     <title>Login Form With Flask WTF</title>
 </head>
 <body>
+    
+{% if error %}
+<div> {{ error }}</div>
+{% endif %}
 
 <form method="POST" action="/login/">
     {{ form.username.label }}
