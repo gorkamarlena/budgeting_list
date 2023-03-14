@@ -3,7 +3,7 @@
 The app allow to track home expenses and save them in "expenses.json" file.
 
 Data are register in this way:
-{
+- {
     "id": "[id_number]",
     "date": "[date_in_format_YYYY-MM-DD]",
     "category": "[category]",
