@@ -1,8 +1,8 @@
-# budgeting_list
+# Budgeting List App
 
-## The app allow to track home expenses and save them in "expenses.json" file.
+The app allow to track home expenses and save them in "expenses.json" file.
 
-## Data are register in this way:
+Data are register in this way:
 {
     "id": "[id_number]",
     "date": "[date_in_format_YYYY-MM-DD]",
@@ -13,7 +13,7 @@
 
 ## The app use following methods:
 
-## Method HTTP 	URI 	Action
+Method  HTTP 	URI 	Action
 GET 	http://[hostname]/expenses/ 	get expenses list
 GET 	http://[hostname]/expenses/[id] 	get id number
 GET 	http://[hostname]/expenses/total/  return total expenses
